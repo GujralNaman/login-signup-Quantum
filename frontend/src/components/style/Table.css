@@ -1,0 +1,12 @@
+body{
+    background-image: url("#") !important;
+}
+
+h2{
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: -65px;
+}
+h2 span{
+    color: red;
+}
