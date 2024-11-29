@@ -1,5 +1,5 @@
 
-# Login - SignUp Page
+# Login - SignUp Page Functionality
 
 This project implements a **user authentication system** designed to securely handle login and signup functionalities for a web application. The application uses **JWT (JSON Web Tokens)** for secure user session management and **password-based authentication** to ensure the safety of user credentials. It follows modern web development practices, providing a **scalable, maintainable, and secure solution** for user management. The project is built using **React** for the frontend, **Node.js** for the backend, and **MongoDB** for database management, ensuring a modern, efficient, and robust full-stack application.
 
