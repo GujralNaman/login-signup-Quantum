@@ -1,5 +1,5 @@
 import React from "react";
-import { toast, ToastContainer } from "react-toastify";
+import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import './style/Table.css'
 
@@ -20,23 +20,14 @@ const tableData = [
 const Table = () => {
   const user = JSON.parse(localStorage.getItem("user")) || { name: "Guest" };
   const handleEditClick = () => {
-    toast.warning("You don't have access to edit!", {
-      position: "top-right",
-      autoClose: 3000,
-      hideProgressBar: false,
-      closeOnClick: true,
-      pauseOnHover: true,
-      draggable: true,
-    });
+    toast.warning("You don't have access to edit!");
   };
 
   return (
     <div>
-      <ToastContainer />
       <h2>Welcome, <span>{user.name}!</span></h2>
       <h3>User Information</h3>
 
-      {/* Table Design */}
       <table style={{ width: "100%", borderCollapse: "collapse", marginTop: "20px", borderColor: "black" }}>
         <thead>
           <tr>

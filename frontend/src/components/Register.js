@@ -4,6 +4,8 @@ import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 import "./style/Register.css";
 import { toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+
 
 const Register = () => {
   const [form, setForm] = useState({ name: "", dateOfBirth: "", email: "", password: "" });
