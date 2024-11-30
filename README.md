@@ -94,3 +94,6 @@ Starting Frontend server
 
 ## Screenshorts
 https://drive.google.com/drive/folders/1SlnhUVZVS08flWdi0JAuDBnbrOs-dUss?usp=sharing
+
+## Screen Recording
+https://www.loom.com/share/05b5a5ff3d4f4366beeb622dbf9b446f?sid=bb542c22-12b6-4971-a281-75938b56921c
